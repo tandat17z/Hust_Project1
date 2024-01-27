@@ -21,7 +21,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 public class RootNpm extends Root{
-	final String projectName = "GradleProjectRoot";
+	final String projectName = "NpmProjectRoot";
 	
     String[] dpdcType = {
     		"dependencies",
@@ -73,7 +73,8 @@ public class RootNpm extends Root{
 
 
         } catch (Exception e) {
-            e.printStackTrace();
+//            e.printStackTrace();
+        	System.out.println("ERROR: Chưa có file cấu hình");
         }
 	}
 

@@ -8,7 +8,7 @@ import java.util.Map;
 
 
 public abstract class Root {
-	public static String rootDir = "D:\\Hust_project1_PackageManager\\";
+	public static String rootDir = "C:\\Hust_project1_PackageManager\\";
 	String fileType;
 	
 	public static Root getInstance(String type) {

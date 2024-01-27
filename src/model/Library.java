@@ -11,7 +11,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 public class Library implements Comparable<Library> {
-	String libraryPath = "D:\\Hust_project1_PackageManager\\Library\\";
+	String libraryPath = "C:\\Hust_project1_PackageManager\\Library\\";
 	
 	String type;
 	String name;
